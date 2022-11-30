@@ -124,11 +124,11 @@ fun main() {
         return getUnmarkedSum(bingoBoard, resultBoards, boards) * bingoNumber
     }
 
-    val testInput = readInput("Day04_test")
+    val testInput = readInput("Day04_test", "2021")
     check(part1(testInput) == 4512)
     check(part2(testInput) == 1924)
 
-    val input = readInput("Day04")
+    val input = readInput("Day04", "2021")
     println(part1(input))
     println(part2(input))
 }

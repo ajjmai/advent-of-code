@@ -82,11 +82,11 @@ fun main() {
         return filtered[filtered.size / 2]
     }
 
-    val testInput = readInput("Day10_test")
+    val testInput = readInput("Day10_test", "2021")
     check(part1(testInput) == 26397)
     check(part2(testInput) == 288957L)
 
-    val input = readInput("Day10")
+    val input = readInput("Day10", "2021")
     println(part1(input))
     println(part2(input))
 }

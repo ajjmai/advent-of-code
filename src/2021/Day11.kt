@@ -95,11 +95,11 @@ fun main() {
         return grid.getSteps()
     }
 
-    val testInput = readInput("Day11_test")
+    val testInput = readInput("Day11_test", "2021")
     check(part1(testInput) == 1656)
     check(part2(testInput) == 195)
 
-    val input = readInput("Day11")
+    val input = readInput("Day11", "2021")
     println(part1(input))
     println(part2(input))
 

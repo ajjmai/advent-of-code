@@ -41,11 +41,11 @@ fun main() {
         return bestFuelUsed
     }
 
-    val testInput = readInput("Day07_test")[0].split(",")
+    val testInput = readInput("Day07_test", "2021")[0].split(",")
     check(part1(testInput) == 37)
     check(part2(testInput) == 168)
 
-    val input = readInput("Day07")[0].split(",")
+    val input = readInput("Day07", "2021")[0].split(",")
     println(part1(input))
     println(part2(input))
 }
