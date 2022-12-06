@@ -1,5 +1,3 @@
-import java.util.Collections
-
 fun main() {
     fun part1(input: List<String>): Int {
         var fish = input.map { it.toInt() }.toMutableList()
@@ -38,11 +36,11 @@ fun main() {
         return counts.sum()
     }
 
-    val testInput = readInput("Day06_test", "2021")[0].split(",")
+    val testInput = readInput("Day06_test", "y2021")[0].split(",")
     check(part1(testInput) == 5934)
     check(part2(testInput) == 26984457539)
 
-    val input = readInput("Day06", "2021")[0].split(",")
+    val input = readInput("Day06", "y2021")[0].split(",")
     println(part1(input))
     println(part2(input))
 }

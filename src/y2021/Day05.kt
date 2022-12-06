@@ -114,11 +114,11 @@ fun main() {
         return overlaps
     }
 
-    val testInput = readInput("Day05_test", "2021")
+    val testInput = readInput("Day05_test", "y2021")
     check(part1(testInput) == 5)
     check(part2(testInput) == 12)
 
-    val input = readInput("Day05", "2021")
+    val input = readInput("Day05", "y2021")
     println(part1(input))
     println(part2(input))
 }

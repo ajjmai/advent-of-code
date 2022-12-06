@@ -1,3 +1,6 @@
+package y2021
+
+import readInput
 import java.util.Stack
 
 class Graph() {
@@ -82,7 +85,7 @@ fun main() {
         return 0
     }
 
-    val testInput1 = readInput("Day12_test1", "2021")
+    val testInput1 = readInput("Day12_test1", "y2021")
     check(part1(testInput1) == 10)
     // check(part2(testInput1) == ??)
 

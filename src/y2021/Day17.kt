@@ -1,4 +1,4 @@
-package `2021`
+package y2021
 
 import readInput
 
@@ -80,11 +80,11 @@ fun main() {
         return velocities.size
     }
 
-    val testInput = readInput("Day17_test", "2021")
+    val testInput = readInput("Day17_test", "y2021")
     check(part1(testInput) == 45)
     check(part2(testInput) == 112)
 
-    val input = readInput("Day17", "2021")
+    val input = readInput("Day17", "y2021")
     println(part1(input))
     println(part2(input))
 }

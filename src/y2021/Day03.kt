@@ -66,7 +66,7 @@ fun main() {
         return Integer.parseInt(oxygenGenerator, 2) * Integer.parseInt(co2Scrubber, 2)
     }
 
-    val input = readInput("Day03", "2021")
+    val input = readInput("Day03", "y2021")
     println(part1(input))
     println(part2(input))
 }

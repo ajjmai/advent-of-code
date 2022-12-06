@@ -85,11 +85,11 @@ fun main() {
         gridToFold.forEach { println(it.contentToString().replace('0', ' ').replace('1', '#')) }
     }
 
-    val testInput = readInput("Day13_test", "2021")
+    val testInput = readInput("Day13_test", "y2021")
     check(part1(testInput) == 17)
     // check(part2(testInput) == 17)
 
-    val input = readInput("Day13", "2021")
+    val input = readInput("Day13", "y2021")
     println(part1(input))
     part2(input)
 }

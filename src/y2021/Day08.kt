@@ -61,11 +61,11 @@ fun main() {
         return result
     }
 
-    val testInput = readInput("Day08_test", "2021")
+    val testInput = readInput("Day08_test", "y2021")
     check(part1(testInput) == 26)
     check(part2(testInput) == 61229)
 
-    val input = readInput("Day08", "2021")
+    val input = readInput("Day08", "y2021")
     println(part1(input))
     println(part2(input))
 }

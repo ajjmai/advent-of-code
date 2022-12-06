@@ -72,11 +72,11 @@ fun main() {
         return counts.maxOf { it } - counts.minOf { it }.toLong()
     }
 
-    val testInput = readInput("Day14_test", "2021")
+    val testInput = readInput("Day14_test", "y2021")
     // check(part1(testInput) == 1588)
     check(part2(testInput) == 2188189693529)
 
-    val input = readInput("Day14", "2021")
+    val input = readInput("Day14", "y2021")
     // println(part1(input))
     // println(part2(input))
 }

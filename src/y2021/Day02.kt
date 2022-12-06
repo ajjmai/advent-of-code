@@ -47,7 +47,7 @@ fun main() {
         return horizontal * depth
     }
 
-    val input = readInput("Day02", "2021")
+    val input = readInput("Day02", "y2021")
     // println(part1(input))
     println(part2(input))
 }

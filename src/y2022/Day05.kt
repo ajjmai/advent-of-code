@@ -1,4 +1,4 @@
-package `2022`
+package y2022
 import java.util.Stack
 import readInput
 
@@ -86,11 +86,11 @@ fun main() {
         return cargoLists.map { it.last() }.joinToString(separator = "")
     }
 
-    val testInput = readInput("Day05_test", "2022")
+    val testInput = readInput("Day05_test", "y2022")
     check(part1(testInput,testCargoStacks) == "CMZ")
     check(part2(testInput, testCargoLists) == "MCD")
 
-    val input = readInput("Day05", "2022")
+    val input = readInput("Day05", "y2022")
     println(part1(input, cargoStacks))
     println(part2(input, cargoLists))
 }
