@@ -34,7 +34,7 @@ fun main() {
                 val upMax = trees.slice(0 until row).map { it[col] }.maxOrNull() ?: 0
                 val downMax = trees.slice(row + 1 until trees.size).map { it[col] }.maxOrNull() ?: 0
 
-                if ( tree > leftMax || tree > rightMax || tree > upMax || tree > downMax)  {
+                if (tree > leftMax || tree > rightMax || tree > upMax || tree > downMax)  {
                     insideTrees += 1
                 }
             }
